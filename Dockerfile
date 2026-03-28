@@ -1,5 +1,5 @@
 # Use lightweight JDK
-FROM openjdk:17-jdk-slim
+FROM openjdk:27-ea-oraclelinux10
 
 # Set working directory
 WORKDIR /app
