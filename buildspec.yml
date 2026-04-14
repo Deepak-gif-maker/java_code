@@ -6,7 +6,7 @@ env:
     IMAGE_REPO_NAME: my_webserver
     IMAGE_TAG: latest
     ACCOUNT_ID: 691768189659
-    ACCOUNT_URI: 691768189659.dkr.ecr.ap-south-1.amazonaws.com/my_webserver:latest
+    ACCOUNT_URI: 691768189659.dkr.ecr.ap-south-1.amazonaws.com/my_webserver
     ECS_CLUSTER: gentle-elephant-csoc3h
     ECS_SERVICE: java-task-service-n1aci5p7
 
