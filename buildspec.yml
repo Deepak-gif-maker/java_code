@@ -6,7 +6,7 @@ env:
     IMAGE_REPO_NAME: java_project
     IMAGE_TAG: latest
     ACCOUNT_ID: 691768189659
-    ACCOUNT_URI: 691768189659.dkr.ecr.ap-south-1.amazonaws.com
+    ACCOUNT_URI: 691768189659.dkr.ecr.ap-south-1.amazonaws.com/java_project
     ECS_CLUSTER: java_project_cluster
     ECS_SERVICE: java_project-service-qiqeyrqx
 
