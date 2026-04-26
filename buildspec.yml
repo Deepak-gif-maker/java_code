@@ -3,12 +3,12 @@ version: 0.2
 env:
   variables:
     AWS_DEFAULT_REGION: ap-south-1
-    IMAGE_REPO_NAME: my_webserver
+    IMAGE_REPO_NAME: java_project
     IMAGE_TAG: latest
     ACCOUNT_ID: 691768189659
     ACCOUNT_URI: 691768189659.dkr.ecr.ap-south-1.amazonaws.com
-    ECS_CLUSTER: gentle-elephant-csoc3h
-    ECS_SERVICE: java-task-service-n1aci5p7
+    ECS_CLUSTER: java_project_cluster
+    ECS_SERVICE: java_project-service-qiqeyrqx
 
 phases:
 
